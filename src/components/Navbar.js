@@ -67,5 +67,5 @@ export default function Navbar(props) {
     </div>
   );
 }
-Navbar.propTypes = { title: PropTypes.string.isRequired, hi: PropTypes.number };
-Navbar.defaultProps = { title: "Guest", hi: 101 };
+Navbar.propTypes = { title: PropTypes.string.isRequired };
+Navbar.defaultProps = { title: "Guest" };

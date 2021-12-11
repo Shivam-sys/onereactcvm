@@ -9,7 +9,7 @@ import About from "./components/About";
 // FOR ROUTER PURPOSE IMPORT BELOEW
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-const githubSiteName = "/onereactcvm"; //NOTICE: When running of localhost--> change this value to "";
+// const githubSiteName = "/onereactcvm"; //NOTICE: When running of localhost--> change this value to "";
 
 let name = "Shivam Kumar";
 function App() {
@@ -39,12 +39,13 @@ function App() {
           <Routes>
             <Route
               exact
-              path={`${githubSiteName}/about`}
+              // path={`${githubSiteName}/about`}
+              path="/about"
               element={<About />}
             ></Route>
             <Route
               exact
-              path={`${githubSiteName}`}
+              path="/"
               element={
                 <Textform
                   heading="Enter some text: "
