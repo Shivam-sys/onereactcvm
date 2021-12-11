@@ -9,7 +9,7 @@ import About from "./components/About";
 // FOR ROUTER PURPOSE IMPORT BELOEW
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-const githubSiteName = "/f-react-11"; //NOTICE: When running of localhost--> change this value to "";
+const githubSiteName = "/onereactcvm"; //NOTICE: When running of localhost--> change this value to "";
 
 let name = "Shivam Kumar";
 function App() {
